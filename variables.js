@@ -110,7 +110,7 @@ const myAnswerForExercise20 = "FALSE";
 const myAnswerForExercise21 = "TRUE";
 
 // Exercise 22 What is the value of 2 < 1 < 3
-const myAnswerForExercise22 = "FALSE";
+const myAnswerForExercise22 = "TRUE";
 
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
