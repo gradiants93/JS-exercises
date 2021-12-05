@@ -150,7 +150,7 @@ function exercise1(num1) {
     return answer4;
   }
   console.log(exercise4(2, 2));
-  console.log(exercise4(TRUE, 'true'));
+  console.log(exercise4('TRUE', 'true'));
   console.log(exercise4(2, '2'));
   console.log(exercise4(2, 0));
   console.log(exercise4('two', 'to'));
@@ -159,7 +159,8 @@ function exercise1(num1) {
   // In exercise 4, what are some of the unexpected cases where `varA` and `varB`
   // seemed like they are equal, but would not pass the tests? In your analysis
   // consider other data types beside strings and variables.
-
+  // Boolean values? it returns a ReffError TRUE is not defined
+  // Also capitalization differences in strings 
   
   // EXERCISE 6.
   // Here, assign the value of true to answer6 if:
@@ -170,12 +171,18 @@ function exercise1(num1) {
     // --------------------------------------------
     // Write your code for the exercise below here:
     // --------------------------------------------
-  
+    if (varA == varB && varA != varC || varB != varC) {
+        answer6 = "true";
+    } else {
+        answer6 = "false";
+    }
     // --------------------------------------------
     // And above here
     // --------------------------------------------
     return answer6;
   }
+  console.log(exercise6(2, "2", 3));
+  console.log(exercise6(2, "2", 2));
   
   // EXERCISE 7.
   // Use a switch conditional statement with case clauses such that if `num7` is
