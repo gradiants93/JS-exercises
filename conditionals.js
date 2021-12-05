@@ -309,12 +309,29 @@ function exercise1(num1) {
     // --------------------------------------------
     // Write your code for the exercise below here:
     // --------------------------------------------
-  
+    switch (true) {
+        case num10 % 15 === 0:
+            answer10 = "Fizz Buzz";
+            break;
+        case num10 % 3 === 0:
+            answer10 = "Fizz";
+            break;
+        case num10 % 5 === 0:
+            answer10 = "Buzz";
+            break;
+        default:
+            answer10 = num10;
+    }
     // --------------------------------------------
     // And above here
     // --------------------------------------------
     return answer10;
   }
+  console.log(exercise10(30));
+  console.log(exercise10(50));
+  console.log(exercise10(45));
+  console.log(exercise10(9));
+  console.log(exercise10(11));
   
   // Congrats, you made it to the end! You rock!
   // Did you find this easy or hard? If you used references, which ones helped you?
