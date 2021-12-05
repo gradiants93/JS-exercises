@@ -266,13 +266,34 @@ function exercise1(num1) {
     // --------------------------------------------
     // Write your code for the exercise below here:
     // --------------------------------------------
-  
+    switch (true) {
+        case item === 1:
+            answer9 = "You won!";
+            break;
+        case item === 7:
+            answer9 = "You are lucky!";
+            break;
+        case item === 101:
+            answer9 = "Welcome to coding 101!";
+            break;
+        case item === 1000000:
+            answer9 = "You are one in a million!";
+            break;
+        default:
+            answer9 = "Please send a number, that was a " + typeof(item) + ".";
+    }
     // --------------------------------------------
     // And above here
     // --------------------------------------------
     return answer9;
   }
-  
+  console.log(exercise9(1));
+  console.log(exercise9('1'));
+  console.log(exercise9(7));
+  console.log(exercise9(101));
+  console.log(exercise9(1000000));
+  console.log(exercise9(true));
+
   // EXERCISE 10.
   // This question is a modified version of a classic programming question
   // called "Fizz Buzz"
