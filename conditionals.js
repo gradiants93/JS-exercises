@@ -239,13 +239,21 @@ function exercise1(num1) {
     // --------------------------------------------
     // Write your code for the exercise below here:
     // --------------------------------------------
-  
+    if ((minimum < amount1 && amount1 < maximum) && (minimum < amount2 && amount2 < maximum)) {
+        answer8 = "true";
+    } else {
+        answer8 = "false";
+    }
     // --------------------------------------------
     // And above here
     // --------------------------------------------
     return answer8;
   }
-  
+  console.log(exercise8(3, 4, 1, 10)); //true
+  console.log(exercise8(3, 3, 1, 10)); //true
+  console.log(exercise8(3, 4, 1, 4)); //false
+  console.log(exercise8(0, 0, 5, 10)); //false
+
   // EXERCISE 9.
   // In this exercise, if `item` is a number, follow the rules given in Exercise 7
   // except that `answer7` is replaced by `answer9`
