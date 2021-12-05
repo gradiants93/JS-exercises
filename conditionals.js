@@ -132,22 +132,34 @@ function exercise1(num1) {
   // "varA and varB are equal"
   // otherwise assign a value of "varA and varB differ"
   
+
+  //Q? Equal as in 2 = 2 and Hi = Hi ? or 2 = two ?
   function exercise4(varA, varB) {
     let answer4;
     // --------------------------------------------
     // Write your code for the exercise below here:
     // --------------------------------------------
-  
+    if (varA == varB) {
+        answer4 = "varA and varB are equal";
+    } else {
+        answer4 = "varA and varB differ";
+    }
     // --------------------------------------------
     // And above here
     // --------------------------------------------
     return answer4;
   }
+  console.log(exercise4(2, 2));
+  console.log(exercise4(TRUE, 'true'));
+  console.log(exercise4(2, '2'));
+  console.log(exercise4(2, 0));
+  console.log(exercise4('two', 'to'));
   
   // EXERCISE 5.
   // In exercise 4, what are some of the unexpected cases where `varA` and `varB`
   // seemed like they are equal, but would not pass the tests? In your analysis
   // consider other data types beside strings and variables.
+
   
   // EXERCISE 6.
   // Here, assign the value of true to answer6 if:
