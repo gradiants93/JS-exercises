@@ -66,7 +66,7 @@ function exercise1(num1) {
   }
   console.log(exercise1(10));
   console.log(exercise1(20));
-    
+
   // EXERCISE 2.
   // Write an if/else conditional statement that if given a number will assign
   // a string value of:
@@ -82,13 +82,19 @@ function exercise1(num1) {
     // --------------------------------------------
     // Write your code for the exercise below here:
     // --------------------------------------------
-  
+    if (num2 % 2 == 0) {
+        answer2 = num2 + " is even";
+    } else {
+        answer2 = num2 + " is odd";
+    }
     // --------------------------------------------
     // And above here
     // --------------------------------------------
     return answer2;
   }
-  
+  console.log(exercise2(4));
+  console.log(exercise2(5));
+
   // EXERCISE 3.
   // Write an if/else if/else block such that if `num3` is positive, then
   // answer3 is assigned the string value of:
