@@ -109,13 +109,23 @@ function exercise1(num1) {
     // --------------------------------------------
     // Write your code for the exercise below here:
     // --------------------------------------------
-  
+    if (num3 > 0) {
+        answer3 = num3 + " is positive";
+    } else if (num3 < 0) {
+        answer3 = num3 + " is negative";
+    } else {
+        answer3 = num3 + " is zero";
+    }
     // --------------------------------------------
     // And above here
     // --------------------------------------------
     return answer3;
   }
-  
+  console.log(exercise3(15));
+  console.log(exercise3(-15));
+  console.log(exercise3(0.1));
+  console.log(exercise3(0));
+
   // EXERCISE 4.
   // Write an if/else statement such that if `varA` and `varB` are strings or
   // numbers and they have equal values, then change the value of answer4 to
