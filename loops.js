@@ -38,6 +38,22 @@ for (let z = 1; z <= 5; z++) {
 // counting DOWN from 10 to 1 (inclusive). Write three loops that do this, to practice
 // writing loops in all 3 ways -- as a 'while', 'do while', and 'for' loop.
 
+let a = 10;
+while (a > 0) {
+  console.log(a);
+  a--;
+}
+
+let b = 10;
+do {
+  console.log(b);
+  b--;
+} while (b > 0);
+
+for (let c = 10; c > 0; c--) {
+  console.log(c);
+}
+
 // Exercise 5. Write a loop that prints the integers from 7 to 27. Write this
 // loop in all 3 ways -- as a 'while', 'do while', and 'for' loop.
 
