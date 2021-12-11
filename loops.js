@@ -21,6 +21,12 @@ while (x < 5) {
 // Exercise 2. Write a 'do while' loop that prints the integers (whole numbers)
 // between 1 and 5 (inclusive).
 
+let y = 0;
+do {
+  y++;
+  console.log(y);
+} while (y < 5);
+
 // Exercise 3. Write a 'for' loop that prints the integers (whole numbers)
 // between 1 and 5 (inclusive).
 
@@ -39,11 +45,11 @@ while (x < 5) {
 // run without ever stopping). Then fix the loop so that it stops when
 // counterFour is equal to -100.
 
-let counterFour = 1;
-while (counterFour < 2) {
-  console.log("HELP ME!");
-  counterFour--;
-}
+//let counterFour = 1;
+//while (counterFour < 2) {
+//  console.log("HELP ME!");
+//  counterFour--;
+//}
 
 // Exercise 8. Make a variable that contains your favorite integer. Write a loop
 // (your choice which type) that prints the integers from 0 to that number.
@@ -86,13 +92,13 @@ inside 1
 *********************************** 
 */
 
-for (let outsideCounter = 0; outsideCounter <= 3 /*???*/; ) {
-  console.log("counting down from", outsideCounter);
-  for (let insideCounter = outsideCounter /*???*/ /*???*/; ; ) {
-    console.log("inside" /*???*/);
-  }
-  console.log("***********************************");
-}
+//for (let outsideCounter = 0; outsideCounter <= 3 /*???*/; ) {
+//  console.log("counting down from", outsideCounter);
+//  for (let insideCounter = outsideCounter /*???*/ /*???*/; ; ) {
+//    console.log("inside" /*???*/);
+//  }
+//  console.log("***********************************");
+//}
 
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
