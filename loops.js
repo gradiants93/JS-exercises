@@ -135,7 +135,9 @@ for (let k = 0; k <= 100; k++) {
 // But in real life, how would you decide which type of loop to use? You might not have an
 // exact answer, but spend a few minutes thinking about the different types of loops and/or
 // doing some research and write down your thoughts in a comment below:
-//
+// I personally prefer for loops because I can call the variable inside them and also label the exit condition as well as the increments in the same line.
+// I can see using a do while loop in cases where I need the loop to run AT LEAST once 
+// The while loop is good for if I already have a variable called somewhere that I need something to be done based on it
 
 // Exercise 11. Now we'll practice using nested loops (a loop inside another loop)!
 // Update the nested loops below to so that for each value of outsideCounter,
