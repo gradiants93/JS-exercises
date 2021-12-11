@@ -57,6 +57,22 @@ for (let c = 10; c > 0; c--) {
 // Exercise 5. Write a loop that prints the integers from 7 to 27. Write this
 // loop in all 3 ways -- as a 'while', 'do while', and 'for' loop.
 
+let d = 7;
+while (d < 28) {
+  console.log(d);
+  d++;
+}
+
+let e = 7;
+do {
+  console.log(e);
+  e++;
+} while (e < 28);
+
+for (let f = 7; f < 28; f++) {
+  console.log(f);
+}
+
 // Exercise 6. Write a loop that prints numbers between 0 and 100, counting by tens.
 // I.e. it will print 10, then 20, then 30, etc.
 // Write this loop in all 3 ways -- as a 'while', 'do while', and 'for' loop.
