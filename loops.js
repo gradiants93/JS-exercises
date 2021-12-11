@@ -97,11 +97,12 @@ for (let i = 0; i <= 100; i += 10) {
 // run without ever stopping). Then fix the loop so that it stops when
 // counterFour is equal to -100.
 
-//let counterFour = 1;
-//while (counterFour < 2) {
-//  console.log("HELP ME!");
-//  counterFour--;
-//}
+// In the while loop it decrements counterFour and the exit condition need counterFour to be above 2
+let counterFour = 1;
+while (counterFour > -100) {
+  console.log("HELP ME!");
+  counterFour--;
+}
 
 // Exercise 8. Make a variable that contains your favorite integer. Write a loop
 // (your choice which type) that prints the integers from 0 to that number.
