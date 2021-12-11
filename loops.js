@@ -77,6 +77,22 @@ for (let f = 7; f < 28; f++) {
 // I.e. it will print 10, then 20, then 30, etc.
 // Write this loop in all 3 ways -- as a 'while', 'do while', and 'for' loop.
 
+let g = 0;
+while (g < 101) {
+  console.log(g);
+  g += 10;
+}
+
+let h = 0;
+do {
+  console.log(h);
+  h += 10;
+} while (h < 101);
+
+for (let i = 0; i <= 100; i += 10) {
+  console.log(i);
+}
+
 // Exercise 7. Add a comment as to why the following loop is an infinite loop (will
 // run without ever stopping). Then fix the loop so that it stops when
 // counterFour is equal to -100.
