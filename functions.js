@@ -22,6 +22,12 @@ logGreeting();
 // Remember, this function should return the string -- not print it.
 // Then print your name in the console by passing getName() into the console.log() function.
 
+function getName() {
+    return "Eileen";
+}
+console.log(getName());
+
+/*
 // Exercise 3. Call a function within a function -- Write a function called logGreeting2()
 // that prints a full sentence that contains your name: "Hello! My name is <name>."
 // logGreeting2 should call myName() to get your name.
@@ -94,3 +100,4 @@ function mysteryFunction1(p1) {
   
   // Email your file to the course staff,
   // or commit your file to GitHub and email us a link.
+  */
