@@ -27,12 +27,21 @@ function getName() {
 }
 console.log(getName());
 
-/*
 // Exercise 3. Call a function within a function -- Write a function called logGreeting2()
 // that prints a full sentence that contains your name: "Hello! My name is <name>."
 // logGreeting2 should call myName() to get your name.
 // Then print your greeting to the console by calling logGreeting2().
 
+function logGreeting2(subFunction) {
+    console.log("Hello! My name is " + subFunction());
+}
+
+logGreeting2(function myName(){
+    return "Eileen";
+});
+
+
+/*
 // Exercise 4. Write a function that takes 3 parameters that are all numbers.
 // The function should return the sum of the 3 numbers.
 // Then write some function calls you would use to test your function.
