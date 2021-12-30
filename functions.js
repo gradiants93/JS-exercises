@@ -54,12 +54,28 @@ console.log(sumNum(2, 3, 4)); // 9
 console.log(sumNum(-2, 2, 0)); // 0
 console.log(sumNum("a", 0, 1)); // NaN
 
-/*
+
 // Exercise 5. Let's say a museum gives a discount for children ages 14 or under, and seniors 65 or older.
 // Write a function that takes in a person's age and returns true if they should get a discount.
 // Otherwise it should return false.
 // Then write some function calls you would use to test your function.
 
+function discountAge(par) {
+    if (par >= 65 || par <= 14) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+console.log(discountAge(64)); // false
+console.log(discountAge(65)); // true
+console.log(discountAge(14)); // true
+console.log(discountAge(15)); // false
+console.log(discountAge(13)); // true
+
+
+/*
 // Exercise 6. Write a function that takes 2 parameters -- one number and one string.
 // The function should print the string the given number of times.
 // Then write some function calls you would use to test your function.
