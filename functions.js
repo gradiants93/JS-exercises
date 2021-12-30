@@ -40,12 +40,21 @@ logGreeting2(function myName(){
     return "Eileen";
 });
 
+// Is this correct? Were you asking for an inline function?
 
-/*
 // Exercise 4. Write a function that takes 3 parameters that are all numbers.
 // The function should return the sum of the 3 numbers.
 // Then write some function calls you would use to test your function.
 
+function sumNum (par1, par2, par3) {
+    return Number(par1 + par2 + par3);
+}
+
+console.log(sumNum(2, 3, 4)); // 9
+console.log(sumNum(-2, 2, 0)); // 0
+console.log(sumNum("a", 0, 1)); // NaN
+
+/*
 // Exercise 5. Let's say a museum gives a discount for children ages 14 or under, and seniors 65 or older.
 // Write a function that takes in a person's age and returns true if they should get a discount.
 // Otherwise it should return false.
