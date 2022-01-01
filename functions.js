@@ -54,7 +54,6 @@ console.log(sumNum(2, 3, 4)); // 9
 console.log(sumNum(-2, 2, 0)); // 0
 console.log(sumNum("a", 0, 1)); // NaN
 
-
 // Exercise 5. Let's say a museum gives a discount for children ages 14 or under, and seniors 65 or older.
 // Write a function that takes in a person's age and returns true if they should get a discount.
 // Otherwise it should return false.
@@ -74,12 +73,23 @@ console.log(discountAge(14)); // true
 console.log(discountAge(15)); // false
 console.log(discountAge(13)); // true
 
-
-/*
 // Exercise 6. Write a function that takes 2 parameters -- one number and one string.
 // The function should print the string the given number of times.
 // Then write some function calls you would use to test your function.
 
+function copier(num, string) {
+    let holder = "";
+    for (var i = num; i > 0; i--) {
+        holder += string;
+    }
+    console.log(holder);
+}
+
+copier(3, "hi"); // "hihihi"
+copier(0, "oops"); // prints nothing
+copier(1, "x"); // "x"
+
+/*
 // Exercise 7. Read the following code (don't run it yet)
 function mysteryFunction1(p1) {
     return p1 * 2;
