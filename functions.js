@@ -130,7 +130,7 @@ function mysteryFunction1(p1) {
   // Were you correct? If not, what did you learn?
   // I was correct
 
-/*  // Exercise 9. This exercise is to practice reading the documentation for functions.
+  // Exercise 9. This exercise is to practice reading the documentation for functions.
   // String.split() is a function in the JavaScript standard library that you can use in your code.
   // Read about the split() function here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
   // Try to use it to solve the following challenges:
@@ -138,17 +138,22 @@ function mysteryFunction1(p1) {
   // Here's a string I made representing my grocery list.
   // Using split() and groceryList, make an array of my grocery list items
   const groceryList = "eggs,carrots,orange juice";
+
+  let groceryArray = groceryList.split(",");
+  console.log(groceryArray);
   
   // Here's a string I made representing my morning schedule.
   // Using split() and mySchedule, make an array of the *first 2* things I do in the morning
   // There are multiple ways to do this, but try doing it using only the split() function.
   const mySchedule = "wake up--->brush teeth--->eat breakfast--->go to work";
   
+  let myAbrSchedule = mySchedule.split("--->", 2);
+  console.log(myAbrSchedule);
+
   // Congrats, you made it to the end!
   // Did you find this easy or hard? If you used references, which ones helped you?
   // Please answer in a comment below.
-  //
-  
+  // It was fairly simple. I over thought numbers 7 and 8 because I was worried it was trying to be a trick question.
+  // I found number 3 confusing because I am still not sure if by "function within a function" you meant inline function or not?
   // Email your file to the course staff,
   // or commit your file to GitHub and email us a link.
-  */
