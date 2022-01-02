@@ -109,7 +109,6 @@ function mysteryFunction1(p1) {
   // Were you correct? If not, what did you learn?
   // I was correct
 
-/*  
 // Exercise 8. Read the following code (don't run it yet)
   function mysteryFunction2(p1, p2) {
     const x = p1 - p2;
@@ -122,12 +121,16 @@ function mysteryFunction1(p1) {
   
   // Without running the code, write down in a comment:
   // 1. What mysteryFunction2 does
+  // mysteryFunction2 takes two paramenters, creates a constant variable of difference of p1 - p2, and then returns the difference 
   // 2. What prints out for the value of a
+  // 6
   // 3. What prints out for the value of b
+  // 5
   // Now run the code and see if you're correct.
   // Were you correct? If not, what did you learn?
-  
-  // Exercise 9. This exercise is to practice reading the documentation for functions.
+  // I was correct
+
+/*  // Exercise 9. This exercise is to practice reading the documentation for functions.
   // String.split() is a function in the JavaScript standard library that you can use in your code.
   // Read about the split() function here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
   // Try to use it to solve the following challenges:
