@@ -89,7 +89,6 @@ copier(3, "hi"); // "hihihi"
 copier(0, "oops"); // prints nothing
 copier(1, "x"); // "x"
 
-/*
 // Exercise 7. Read the following code (don't run it yet)
 function mysteryFunction1(p1) {
     return p1 * 2;
@@ -101,12 +100,17 @@ function mysteryFunction1(p1) {
   
   // Without running the code, write down in a comment:
   // 1. What mysteryFunction1 does
+  // mysteryFunction returns the value of the included parameter multiplied by 2.
   // 2. What prints out for the value of y
+  // 4
   // 3. What prints out for the value of z
+  // 8
   // Now run the code and see if you're correct.
   // Were you correct? If not, what did you learn?
-  
-  // Exercise 8. Read the following code (don't run it yet)
+  // I was correct
+
+/*  
+// Exercise 8. Read the following code (don't run it yet)
   function mysteryFunction2(p1, p2) {
     const x = p1 - p2;
     return x;
