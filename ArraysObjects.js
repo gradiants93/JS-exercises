@@ -44,17 +44,37 @@ for (let index = 0; index < assortedThings.length; index++) {
 // 50 small
 //
 // Then write some function calls you would use to test your function.
-
+function bigSmallNeg(numArr) {
+    for (let elem = 0; elem < numArr.length; elem++) {
+        if (elem < 0) {
+            return (elem + " negative");
+        } else if (elem < 100) {
+            return (elem + " small");
+        } else {
+            return (elem + "BIG");
+        }
+    };
+}
+bigSmallNeg([-2, 200, 50]); // -2 negative, 200 BIG, 50 small
+bigSmallNeg([-1, 0, 100]); // -1 negative, 0 small, 100 small
+bigSmallNeg([-40, 15, 101]); // -40 negative, 15 small, 101 BIG
+bigSmallNeg([-2, 200, 50]); // -2 negative, 200 BIG, 50 small
 // Exercise 12. Make an object called me that contains the following keys: name, favoriteAnimal, favoriteNumber
 // The values of those keys can be whatever you choose.
-
+let me = {
+    name : "Eileen",
+    favoriteAnimal : "Leopard Gecko",
+    favoriteNumber : 25
+}
 // Exercise 13. Add another 2 keys and values to the object (you choose what they are)
-
+me.pets = "Tzima";
+me.vaccination = "Yes"
 // Exercise 14. Update the favoriteAnimal value to something different
-
+me.favoriteAnimal = "Okapi"
 // Exercise 15. Print the value of favoriteAnimal.
 // Note: there are at least 2 ways to get the value of a key, try to write both.
-
+console.log(me.favoriteAnimal);
+console.log(me[favoriteAnimal]);
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
