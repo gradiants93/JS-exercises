@@ -1,0 +1,1 @@
+exports.aThing = process.env.aThing;
